@@ -1,0 +1,13 @@
+{
+  "name": "morning-brief",
+  "version": "1.0.0",
+  "description": "Generate morning brief with weather and hot topics",
+  "commands": [
+    {
+      "name": "brief",
+      "description": "Generate today's morning brief",
+      "usage": "/morning-brief",
+      "script": "python3 ~/.openclaw/skills/morning-brief/morning_braft.py"
+    }
+  ]
+}
